@@ -1,0 +1,440 @@
+ul, li{
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #f2f1ef;
+}
+.header a{
+    color: black;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav_two{
+    display: flex;
+    align-items: center;    
+}
+.triangle{
+    width: 30px;
+    height: 30px;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    font-size: 18px;
+    margin-left: 30px;
+}
+.menu li{
+    margin-right: 32px;
+    list-style-type: none;
+}
+.tel{
+   margin-left: 400px; 
+   font-size:18px;
+
+}
+.title{
+    margin-top: 70px;
+    font-size: 25px;
+    font-family: "Bai Jamjuree";
+}
+.my_Image{
+    padding-top: 60px;
+    padding-left: 200px;
+    width: 300px;
+}
+.sub_title{
+    margin-top: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.border_Image{  
+    margin-top: 50;
+    width: 620px;
+    height: 200px;
+}
+.talk_button{
+    margin-right: 50px;
+    background-color: #f2f1ef;
+    border-color: black;
+    font-size: 20px;
+    padding: 14px;
+    font-family: "Bai Jamjuree";
+}
+.cube{
+    margin-left: 30px;
+    width: 140px;
+    height: 54px;
+    background: black;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 20px;
+}
+.marginLeftText{
+    margin-left: 310px;
+}
+.small_Text{
+    font-size: 20px;
+    font-family: "Bai Jamjuree";
+}
+.small_sub_dima{
+    font-size: 20px;
+    font-family: "Bai Jamjuree";
+}
+.center_Text{
+    font-size: 29px;
+    font-family: "Bai Jamjuree";
+}
+.Text{
+    font-size: 29px;
+    font-family: "Bai Jamjuree";
+}
+.big_Text{
+    font-size: 30px;
+    font-family: "Bai Jamjuree";
+}
+.sub_Text{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "Bai Jamjuree";
+}
+.margin_Text_Top{
+    margin-top: 140px;
+}
+.small_sub_text{
+    font-size: 15px;
+    font-family: "Bai Jamjuree";
+}
+.red_small_text{
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: "Bai Jamjuree";
+    color: rgb(221, 89, 89);
+}
+.red_small_text_margin{
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 12px;
+    font-family: "Bai Jamjuree";
+    color: rgb(221, 89, 89);
+}
+.black_small_text{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Bai Jamjuree";
+    color: black;
+}
+.info_margin_left{
+    margin-left: 190px  ;
+}
+.black_small_text_margin1{
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 14px;
+    font-family: "Bai Jamjuree";
+    color: black;
+}
+.black_small_text_margin2{
+    margin-top: 10px;
+    margin-left: 142px;
+    font-size: 14px;
+    font-family: "Bai Jamjuree";
+    color: black;
+}
+.section_start{
+    margin-top: 125px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section_start_Text{
+    font-size: 34px;
+    font-family: "Bai Jamjuree";
+    margin-top: 5px;
+}
+.service{
+    margin-top: 60px;
+    border: 0.05em solid black;
+    width:30%;
+    height: 110px;
+    justify-content: center;
+    margin-left: 160px;
+}
+.service_small_text{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: "Bai Jamjuree";
+}
+.service_big_text{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: "Bai Jamjuree";
+}
+.red_portfolio{
+    border: 0.05em solid black;
+    width: 152px;
+    background-color: red;
+    font-size: 17px;
+    font-family: "Bai Jamjuree";
+    margin-bottom: 10px;
+}
+.margin_portfolio_left{
+    margin-left: 170px;
+}
+.image_portfolio{
+    width: 460;
+    height: 307;
+}
+.articles{
+    margin-top: 60px;
+    border: 0.05em solid black;
+    width:75%;
+    height: 40px;
+    margin-left: 150px;
+    justify-content: center;
+}
+.articles_red_text{
+    color: sandybrown;
+    font-size: 13;
+    font-family: "Bai Jamjuree";
+}
+.articles_small_text{
+    font-size: 10px;
+    font-family: "Bai Jamjuree";
+    margin-left: 40px;
+}
+.articles_button{
+    border: 0.05em solid #161513;
+    background-color: #161513;
+    margin-top: 40px;
+    height: 40px;
+    width: 75%;
+    margin-left: 150px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.articles_button_text{
+    color: white;
+    font-size: 14px;
+    font-family: "Bai Jamjuree";
+}
+.last_section{
+    background-color: grey;
+}
+.text_margin_left{
+    margin-left: 800px;
+}
+.icon_margin_left{
+    margin-left: 735px;
+}
+.contact_image_left_margin{
+    margin-left: 170;
+}
+.contact_image{
+    width: 15px;
+    height: 15px;
+    margin-left: 100px;
+}
+.small_sub_text_section{
+    font-size: 25px ;
+    font-family: "Bai Jamjuree";
+}
+.contact__us{
+    display: flex;
+    padding: 70px 25px;
+}
+.contact__us_text{
+    font-size: 15px;
+    font-family: "Bai Jamjuree";
+}
+.marginImageContact{
+    margin-top: 15px;
+}
+.margin_text_ticket{
+    margin-top: 20px;
+    margin-left: 410px;
+    font-family: "Bai Jamjuree";
+    color: black;
+}
+.button_ticket{
+    margin-top: 10px;
+    margin-left: 550px;
+    font-family: "Bai Jamjuree";
+    color: black;
+}
+
+@media only screen and (max-width: 425px){
+    .container{
+        width: 360px;
+    }
+    .margin_Text_Top{
+        margin-top: 40px;
+    }
+    .section_start{
+        margin-top: 80px;
+    }
+    .title{
+        font-size: 13px;
+        align-items: center;
+    }
+    .menu li a{
+        font-size: 15px;   
+        margin-left: 15px; 
+    }
+    .menu{
+        display: inline;
+    }
+    .talk_button{
+        font-size: 11px;
+        padding: 10px;
+    }
+    .border_Image{
+        margin-left: 35px;
+        width: 150px;
+        height: 150px;
+    }
+    .triangle{
+        width: 20px;
+        height: 20px;
+    }
+    .sub_title{
+        margin-top: 5px;
+        font-size: 7px;
+    }
+    .tel{
+        margin-left: 90px; 
+        font-size: 15px;
+    }
+    .my_Image{
+        margin-left: 65px;
+        padding-left: 0px;
+    }
+    .cube{
+        margin-left: 105px;
+        width: 65px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .big_Text{
+        font-size: 25px;
+    }
+    .small_sub_dima{
+        font-size: 16px;
+    }
+    .small_Text{
+        font-size: 16px; 
+    }
+    .center_Text{
+        font-size: 20px; 
+    }
+    .Text{
+        font-size: 20px; 
+    }
+    .sub_Text{
+        font-size: 15px; 
+    }
+    .red_small_text{
+        font-size: 10px;
+    }
+    .red_small_text_margin{
+        margin-left: 35px;
+        font-size: 10px;
+    }
+    .black_small_text{
+        font-size: 10px;
+    }
+    .black_small_text_margin1{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .black_small_text_margin2{
+        margin-left: 90px;
+        font-size: 10px;
+    }
+    .info_margin_left{
+        margin-left: 0px;
+    }
+    .nav_two{
+        display: inline;
+        text-align: left;
+    }
+    .info_margin_left{
+        margin-left: 0px;
+    }
+    .marginLeftText{
+        margin-left: 0px;
+    }
+    .image_portfolio{
+        width: 310px;
+        height: 197px;
+    }
+    .margin_portfolio_left{
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .phoneText{
+        align-items: center;
+        text-align: center;
+    }
+    .imagePhone{
+        margin-left: 25px;
+    }
+    .red_portfolio{
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .service{
+        margin-left: 27px;
+        height: 100px;
+        width: 85%
+    }
+    .service_big_text{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .service_small_text{
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .articles{
+        height: 140px;
+        width: 85%;
+        margin-left: 25px;
+    }
+    .small_sub_text{
+        font-size: 17px;
+    }
+    .articles_small_text{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .articles_button_text{
+        font-size: 16px;
+    }
+    .articles_button{
+        width: 80%;
+        margin-left: 35px;
+    }
+    .contact_image_left_margin{ 
+        margin-left: 0px;
+    }
+}

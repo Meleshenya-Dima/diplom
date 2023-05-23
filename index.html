@@ -1,0 +1,257 @@
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <title>defaultitmember</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ </head>
+<body>
+    <div class = "header" >
+        <div class="container">
+            <div class="nav">
+                <img class = "triangle" src="Resources/triangle.png" alt="triangle">
+                <ul class="menu">
+                    <li>
+                        <a href="#about">Home</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Ticket</a>
+                    </li>
+                    <li>
+                        <a href="#services">Service</a>
+                    </li>
+                    <li>
+                        <a href="#articles">Articles</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                           $(".menu").on("click","a", function (event) {
+                               event.preventDefault();
+                               var id  = $(this).attr('href'),
+                                   top = $(id).offset().top;
+                               $('body,html').animate({scrollTop: top}, 1500);
+                           });
+                       });
+                    </script>
+                </ul>
+            </div>
+            <div class = "title">
+                <div class="menu">
+                    <div class="title">
+                        <h1>It's Belavia.</h1>
+                        <div class="nav">
+                            <h1>BETTER</h1>
+                            <img class = "triangle" src="Resources/triangle.png" alt="triangle">
+                            <h1>IN WORLD.</h1>
+                        </div>
+                         <h1>BASED IN MINSK</h1>
+                        <div class="sub_title">
+                            <h1>TRANSPORTATION</h1>
+                            <img class = "triangle" src="Resources/triangle.png" alt="triangle">
+                            <h1>FLIGHT</h1>
+                            <img class = "triangle" src="Resources/triangle.png" alt="triangle">
+                            <h1>QUALITY</h1>
+                        </div>
+                    </div>
+                    <div class="my_Image">
+                        <img class="border_Image" src="Resources/logo.jpg" alt="my">
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id = "about" >
+        <div class="container">
+            <div class="menu">
+                <div class="margin_Text_Top">
+                    <div class="nav">
+                        <h1 class="small_sub_dima">Belavia</h1>
+                        <img class = "triangle" src="Resources/triangle.png" alt="triangle">
+                        <h1 class="small_Text">Company</h1>
+                    </div>
+                    <h1 class="big_Text">Quality work</h1>
+                    <h1 class="big_Text">A pleasant flight</h1>
+                    <h1 class="big_Text">Nice prices</h1>
+                </div>
+                    <div class="margin_Text_Top">
+                        <div class="marginLeftText">
+                            <h1 class="center_Text">Belavia Airline is the leader of passenger transportation in the Republic of Belarus. The basis of the airline's activity is the principle of creating a positive image,</h1>
+                            <h1 class="Text">which is formed on the basis of safety, regularity and accuracy of flights, improving the quality of passenger service.</h1>
+                            <h1 class="sub_Text">Information to start viewing:</h1>
+                            <div class="nav">
+                                <h1 class="red_small_text">BORN IN </h1>
+                                <h1 class="red_small_text_margin">EXPERIENCE WORK</h1>
+                                <h1 class="red_small_text_margin">DATE OF BIRTH</h1>
+                            </div>
+                            <div class="nav">
+                                <h1 class="black_small_text">Minsk, Belarus</h1>
+                                <h1 class="black_small_text_margin1">30+ Year</h1>
+                                <h1 class="black_small_text_margin2">Start work in 1997</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="margin_Text_Top">
+                    <div class="nav_two">
+                        <div class="info_margin_left">
+                            <h1 id="Years" class="big_Text">0</h1>
+                            <script>
+                            $('#Years').animate({
+                                numberValue: 30
+                                }, {
+                                duration: 500,
+                                easing: 'linear',
+                                step: function() {
+                                  $('#Years').text(Math.ceil(this.numberValue));
+                                }
+                              });
+                            </script>
+                            <h1 class="small_sub_text">YEARS OF EXPERIENCE</h1>
+                        </div>
+                        <div class="info_margin_left">  
+                            <h1 id="ProjectComplited" class="big_Text">14</h1>
+                            <script>
+                                $('#ProjectComplited').animate({
+                                    numberValue: 10000
+                                    }, {
+                                    duration: 500,
+                                    easing: 'linear',
+                                    step: function() {
+                                      $('#ProjectComplited').text(Math.ceil(this.numberValue));
+                                    }
+                                  });
+                                </script>
+                            <h1 class="small_sub_text">FLIGHT COMPLITED</h1>
+                        </div>
+                        <div class="info_margin_left">
+                            <h1 id="HappyClients" class="big_Text" >0</h1>
+                            <script>
+                                $('#HappyClients').animate({
+                                    numberValue: 1000
+                                    }, {
+                                    duration: 500,
+                                    easing: 'linear',
+                                    step: function() {
+                                      $('#HappyClients').text(Math.ceil(this.numberValue));
+                                    }
+                                  });
+                                </script>
+                            <h1 class="small_sub_text">HAPPY CLIENTS</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id = "portfolio" >
+        <div class="container">
+            <div class="section_start">
+                <img class="triangle" src="Resources/triangle.png" alt="triangle">
+                <h1 class="section_start_Text">Information</h1>
+                <h1 class="small_sub_text_section">Check you ticket</h1>
+            </div>
+            <div class="margin_text_ticket">
+                <label >Enter the code of the above ticket</label>
+                <input type="text" id = "ticket">
+            </div>
+            <form method="post" action="message.php">
+                <input type="submit" name="submit" value="Отправить запрос">
+            </form>
+           
+        </div>
+    </section>
+    
+    <section id = "services" >
+        <div class="container">
+            <div class="section_start">
+                <img class="triangle" src="Resources/triangle.png" alt="triangle">
+                <h1 class="section_start_Text">Service</h1>
+                <h1 class="small_sub_text_section">Quality work it's second name</h1>
+            </div>
+            <div class="nav_two">
+                <div class="service">
+                    <h1 class = "service_big_text">Speed of services</h1>
+                    <h1 class = "service_small_text">The speed of our services is not like a turtle.</h1>
+                </div>
+                <div class="service">
+                    <h1 class = "service_big_text">Cost of services</h1>
+                    <h1 class = "service_small_text">The cost of services is equal to the market, and sometimes lower than the market price.</h1>
+                </div>
+            </div>
+            <div class="nav_two">
+                <div class="service">
+                    <h1 class = "service_big_text">Our customer service</h1>
+                    <h1 class = "service_small_text">Our customers always remain with good emotions.</h1>
+                </div>
+                <div class="service">
+                    <h1 class = "service_big_text">We are developing</h1>
+                    <h1 class = "service_small_text">Every day we are getting better and better and this site is proof of that.</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id = "articles" >
+        <div class="container">
+            <div class="section_start">
+                <img class="triangle" src="Resources/triangle.png" alt="triangle">
+                <h1 class="section_start_Text">Articles</h1>
+                <h1 class="small_sub_text_section"> QUESTIONS TO COMPANY</h1>
+            </div>
+            <div class="articles">
+                <div class="nav">
+                    <div>
+                        <h1 class="articles_red_text">February 07, 2023</h1>
+                        <h1 class="small_sub_text">Why should I choose your company?</h1>
+                    </div>
+                    <h1 class="articles_small_text">We are one of the best in our field of providing this type of service. </h1>
+                </div>
+            </div>
+            <div class="articles">
+                <div class="nav">
+                    <div>
+                        <h1 class="articles_red_text">February 06, 2023</h1>
+                        <h1 class="small_sub_text">Why such low prices and such high quality?</h1>
+                    </div>
+                    <h1 class="articles_small_text">We love our customers and try to please every class.</h1>
+                </div>
+            </div>
+            <div class="articles">
+                <div class="nav">
+                    <div>
+                        <h1 class="articles_red_text">February 26, 2022</h1>
+                        <h1 class="small_sub_text">Do emergencies often occur when using your services?</h1>
+                    </div>
+                    <h1 class="articles_small_text">Such situations happen in the same number as everyone else. We try to reduce their number to 0%</h1>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer id = "contact" class="contact">
+        <div class="container">
+            <div class="contact__us">
+                <div class="contact_image_left_margin">
+                    <div class="contact__us_text">Contacts</div>
+                    <div class="contact__us_text">+375 44 564-45-64 </div>
+                    <div class="contact__us_text">belaviaairline@gmail.com</div>
+                </div>
+                <div class="contact_image_left_margin">
+                    <div class="marginImageContact">
+                        <img id="instagram" onclick="OpenSocialNetwork(document.getElementById('instagram').id)" class="contact_image" src="Resources/instagram.png" alt="instagram">
+                        <img id="vk" onclick="OpenSocialNetwork(document.getElementById('vk').id)" class="contact_image" src="Resources/vk.png" alt="vk">
+                        <img id="telegram" onclick="OpenSocialNetwork(document.getElementById('telegram').id)" class="contact_image" src="Resources/telegram.png" alt="telegram">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body> 
+</html>
